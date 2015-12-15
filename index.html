@@ -615,8 +615,7 @@ Array.prototype.forEach.call(elements, function(el, i){
             <div data-browser="ie8" class="browser ie8">
               <h4>IE8+</h4>
               <div data-lang="javascript" class="code-block language-javascript">
-                <pre><code>while(el.firstChild)
-  el.removeChild(el.firstChild);
+                <pre><code>el.innerHTML = '';
 </code></pre>
               </div>
             </div>
